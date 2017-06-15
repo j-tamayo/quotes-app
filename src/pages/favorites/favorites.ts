@@ -14,7 +14,10 @@ import { QuotesService } from '../../services/quotes';
 export class FavoritesPage {
   quotes: Quote[];
 
-  constructor(private quotesService: QuotesService, private modalCtrl: ModalController) {
+  constructor(
+    private quotesService: QuotesService,
+    private modalCtrl: ModalController
+  ) {
 
   }
 
