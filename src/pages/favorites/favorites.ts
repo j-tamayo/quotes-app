@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, ModalController } from 'ionic-angular';
+import { ModalController } from 'ionic-angular';
 
 import { QuotePage } from '../quote/quote';
 
